@@ -1,0 +1,33 @@
+body{
+	text-align: center;
+}
+
+h1{
+	font-family: Oswald; 
+	font-size: 5em;
+}
+
+p{
+	font-family: Oswald,Arial,sans-serif;
+}
+
+#counter{
+	font-size: 10em;
+}
+
+#timer{
+	font-style: italic;
+}
+
+#pedido{
+	font-size: 2em;
+}
+
+#divPedido{
+	color:#468847;
+	background-color: #dff0d8;
+	border-radius: 4px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	width: 300px;
+	margin:auto;
+}
