@@ -15,8 +15,8 @@
 	<div>
 		<span id="counter" style="font-size: 10em;"></span>
 	</div>
-	<div><span id="pedido" style="font-size: 4em;">Pedido Efetuado!</span></div>
-	<div id="timer"></div>
+	<div style="color:#468847;background-color: #dff0d8;border-radius: 4px;text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);width: 300px;margin:auto;"><span id="pedido" style="font-size: 2em;">Pedido Efetuado!</span></div>
+	<div style="font-style: italic" id="timer"></div>
 	<script type="text/javascript">
 		$( document ).ready(function() {
 
@@ -35,7 +35,7 @@
 						window.clearInterval(interval)
 						$("#timer").fadeOut('fast')
 						$("#counter").fadeOut('fast')
-						$("#pedido").fadeIn('slow')
+						$("#pedido").delay(500).fadeIn('slow')
 					}
 	    		}, 1000)
 	    	}
